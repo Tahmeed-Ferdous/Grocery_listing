@@ -34,7 +34,7 @@ def store():#function to store the values
     if product == 'stop':
       break
     else:
-      quantity=int(input('Enter the amount of product:----- '))
+      quantity=int(input('Enter the quantity of product:----- '))
       price=int(input('Enter the price of product:------ '))
       multiply=quantity*price
       dic[product]=multiply#update in the dictionary
