@@ -62,7 +62,7 @@ def store():#function to store the values
 
   print(f'Total budget:------ {int(total_amount_needed+budget)}TK')  
   print(f'Total cost:-------- {int(total_amount_needed)}TK')
-  print(f'Extra money:------- {int(budget)}TK')#to remove minus sign
+  print(f'Extra money:------- {int(budget)}TK')
   print(f'Total items:------- {items} items')
 
 def run_again():#run the whole process as much as possible
