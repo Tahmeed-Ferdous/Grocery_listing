@@ -60,7 +60,6 @@ def store():#function to store the values
   print('----------------------------------------------')
   print('--------------------Sum-----------------------')
 
-  print(f'Total budget:------ {int(total_amount_needed+budget)}TK')  
   print(f'Total cost:-------- {int(total_amount_needed)}TK')
   print(f'Extra money:------- {int(budget)}TK')
   print(f'Total items:------- {items} items')
